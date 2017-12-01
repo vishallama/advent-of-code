@@ -1,7 +1,7 @@
 // Day 1: Inverse Captcha
-const puzzleinput = require('./captcha.js');
+const captcha = require('./captcha.js');
 
-const str = puzzleinput.input.trim();
+const str = captcha.input.trim();
 const inputArray = str.split("").map(value => parseInt(value, 10));
 
 function inverseCaptcha(array, offset) {
